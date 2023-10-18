@@ -14,8 +14,6 @@ class KidsDataset(Dataset):
         super(KidsDataset, self).__init__()
         self.window_size = window_size
         dir_path = os.listdir(path)
-        #dir_path.remove('2')
-        #dir_path.remove('5')
         for d in dir_path:
             file_path = os.listdir(path + '/' + d)
             for f in file_path:
