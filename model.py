@@ -1,3 +1,4 @@
+#code from : https://github.com/Seonghoon-Yu/AI_Paper_Review/blob/master/Classification/DenseNet(2017).ipynb
 import torch
 import torch.nn as nn
 
